@@ -6,7 +6,7 @@ import tensorflow as tf
 
 class StopCallback(tf.keras.callbacks.Callback):
     def on_epoch_end(self, epoch, logs={}):
-        if(logs.get('mse')<=0.5):
+        if(logs.get('mse')<=0.9):
             print("\nSTOP [Mean Squared Error to low so cancelling training]")
             self.model.stop_training = True
 
@@ -49,7 +49,7 @@ model.add(tf.keras.layers.Dense(1, name='output'))
 
 model.compile(loss='mse', optimizer='adam', metrics=['mae','mse'])
 
-history = model.fit(X_train, y_train, epochs=100, callbacks=[callbacks])
+history = model.fit(X_train, y_train, epochs=45, callbacks=[callbacks])
 
 # Predizendo valores de treinamento
 # e = model.predict(X_test[:10])
