@@ -1,13 +1,11 @@
 # Trabalho prático 3
 
-* Nome do Aluno: ________
-* Número de Matrícula: ________
-* Disciplina: Aprendizado de Máquina
-* Semestre: 2023/1
-* Data da entrega: 07/06/2023
-* Valor: 2,0
-
-> Orientações: preencher com seus dados antes da data de entrega
+* Nome do Aluno: ***Gustavo Casaes Alves***
+* Número de Matrícula: ***2018111130***
+* Disciplina: ***Aprendizado de Máquina***
+* Semestre: ***2023/1***
+* Data da entrega: ***07/06/2023***
+* Valor: ***2,0***
 
 ## Como entregar este trabalho
 
